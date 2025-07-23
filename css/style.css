@@ -411,7 +411,7 @@ position: relative;
 }
 
 .portfolio__item {
-    background: var(--clr--accent);
+    background: var(--clr-light);
     overflow: hidden;
 }
 .portfolio__img {
