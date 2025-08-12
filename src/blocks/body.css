@@ -1,0 +1,24 @@
+.body__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+
+.body__info-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.body__info-guarantee {
+  margin-top: 60px;
+  justify-content: left;
+}
+
+.body__info-title {
+}
+
+.body__text-wrapper {
+}

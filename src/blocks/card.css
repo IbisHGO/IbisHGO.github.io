@@ -1,0 +1,28 @@
+.card__button-image {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__button {
+  padding: 0;
+}
+
+.card__button:hover {
+  cursor: pointer;
+}
+
+.card__button-title {
+  background-color: #101c49;
+  color: white;
+  font-family: var(--project-font);
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  font-weight: var(--font-weight-regular);
+  margin: 0 0 20px;
+}
+
+.card__description {
+  font-family: var(--project-font
+  );
+}

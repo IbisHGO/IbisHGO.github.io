@@ -1,126 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title>KevinDev Portfolio Website</title>
-    <link rel ="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normaliz.min.css">
-    <link rel= "stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-    <header>
-        <div class="logo">
-            <img src="img/ibisLogo.png" alt="">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>IBIS ESP</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__banner-top">
+          <a href="./" class="header__logo-route">
+            <img
+              src="./src/images/ibis-logo.png"
+              alt="logo de IBIS"
+              class="header__logo"
+            />
+          </a>
+          <button class="header__button-shop">
+            <a href="./rentasyventas.html" class="header__shop-route">
+              <img
+                src="./src/images/shopping-cart.svg"
+                alt="icon de compra"
+                class="header__cart-button"
+              />
+            </a>
+          </button>
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a href="./termsAndConditions.html" class="nav__link">Terms and Conditions</a></li>
-            <li class="nav__item"><a href="./privacyPolicy.html" class="nav__link">Privacy Policy</a></li>
-        
-        </ul>
-    </nav>
-    </header>
-
-    <!--Bikes-->
-
-
-    <!--[HD6, Ripmo AF]-->
-    <div class="row">
-        <a style="text-decoration: none; color: --clr-text;" href="./HD6Details.html">
-        <div class="column">
-            <p style="background-color:#ec6b23;">HD6</p>
-            <p>Recorrido 180/165mm</p>
-            <p>Rodada 29"/27.5"</p>
-            <p>Desde $180,000</p>
-        <img src="img/HD6Orange.png" alt="" class="portfolio__img"/>
-    </a>
-    </div>
-        <div class="column">
-            <p style="background-color:#ec6b23;">Ripmo AF</p>
-            <p>Recorrido 160/150mm</p>
-            <p>Rodada 29"/27.5" en talla S y M</p>
-            <p>Desde $108,155</p>
-            <img src="img/RipmoAF.png" alt="" class="portfolio__img"/>
+        <div class="header__banner-bottom">
+          <a href="./rentasyventas.html" class="header__link-rent">
+            <button class="header__button-rent">
+              <h2 class="header__button-text">
+                We do rent-to-buy! Click here to learn about purchasing options.
+              </h2>
+            </button>
+          </a>
         </div>
+      </header>
+      <main class="content">
+        <section class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <a href="./hd6.html" class="card__page-route">
+                <button class="card__button">
+                  <h3 class="card__button-title">HD6</h3>
+                  <p class="card__description">
+                    Recorrido 180/165mm <br />
+                    Rodada 29"/27.5" <br />
+                    Desde $180,000
+                  </p>
+                  <img
+                    src="./src/images/hd6-orange.png"
+                    alt="foto de HD6 naranja"
+                    class="card__button-image"
+                  />
+                </button>
+              </a>
+            </li>
+
+            <li class="card">
+              <a href="./ripmoaf.html" class="card__page-route">
+                <button class="card__button">
+                  <h3 class="card__button-title">Ripmo AF</h3>
+                  <p class="card__description">
+                    Recorrido 160/150mm <br />
+                    Rodada 29"/27.5" en talla S y M <br />
+                    Desde $108,155
+                  </p>
+                  <img
+                    src="./src/images/ripmo-af.png"
+                    alt="foto de ripmo af"
+                    class="card__button-image"
+                  />
+                </button>
+              </a>
+            </li>
+
+            <li class="card">
+              <a href="./ripmo.html" class="card__page-route">
+                <button class="card__button">
+                  <h3 class="card__button-title">Ripmo</h3>
+                  <p class="card__description">
+                    Recorrido 160/150mm <br />
+                    Rodada 29/27.5 <br />
+                    Desde $180,000
+                  </p>
+                  <img
+                    src="./src/images/ripmo-green.png"
+                    alt="foto de ripmo verde"
+                    class="card__button-image"
+                  />
+                </button>
+              </a>
+            </li>
+
+            <li class="card">
+              <a href="./exieusa.html" class="card__page-route">
+                <button class="card__button">
+                  <h3 class="card__button-title">Exie USA</h3>
+                  <p class="card__description">
+                    Recorrido 120/100 <br />
+                    Rodada 29"<br />
+                    Desde $127,300
+                  </p>
+                  <img
+                    src="./src/images/exie-usa-red.png"
+                    alt="foto de exie usa"
+                    class="card__button-image"
+                  />
+                </button>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="body__info">
+          <h2 class="body__info-title">La guarantía Ibis</h2>
+          <div class="body__text-wrapper">
+            <p class="body__info-text">Garantia en el cuadro de por vida.</p>
+            <p class="body__info-text">Rendimiento y comodidad de elite.</p>
+            <p class="body__info-text">Comer taco.</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer footer__content">
+        <p class="footer__text">kevinibishgo@gmail.com</p>
+        <p class="footer__text">TikTok</p>
+      </footer>
     </div>
-
-
-    <!--[Ripmo, Hakka]-->
-    <div class="row">
-        <div class="column">
-            <p style="background-color:#ec6b23;">Ripmo</p>
-            <p>Recorrido 160/150mm</p>
-            <p>Rodada 29/27.5</p>
-            <p>Desde $180,000</p>
-        <img src="img/RipmoGreen.png" alt="" class="portfolio__img"/>
-    </div>
-        <div class="column">
-            <p style="background-color:#ec6b23;">Exie USA</p>
-            <p>Recorrido 120/100</p>
-            <p>Rodada 29"</p>
-            <p>Desde $127,300</p>
-            <img src="img/ExieUSARed.png" alt="" class="portfolio__img"/>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!--Instruction-->
-    <section class="my-work" id="bike-title">
-                <p class="section__subtitle section__subtitle--work">Presiona el modelo de tu interes para aprender mas.</p>
-    </section>
-
-
-
-    <!--[Stylized bottom paragraph]-->
- <section class="about-me" id="about">
-    <h2 class="section__title section__title--about">La garantía Ibis</h2>
-    <p class="section__subtitle section__subtitle--about">Rueda más, trabaja menos.</p>
-
-    <div class="about-me__body">
-        <p>Garantia en el cuadro de por vida.</p>
-        <p>Rendimiento y comodidad de elite.</p>
-        <p>Comer taco.</p>
-    </div>
-</section>
-
-
-    <!--Footer dumbass-->
-    <footer class="footer">
-        <a href="kevinibishgo@gmail.com" class="footer-link">kevinibishgo@gmail.com</a>
-        <p>
-        <a href="https://vm.tiktok.com/ZMRKW67qC/" class="footer-link">TikTok</a>
-    </p>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/a_of_x/">
-                <i class="fab fa-instagram"></i>
-            </a></li>
-            <!-- <li class="social-list__item"><a class="social-list__link"></a></li>
-            <li class="social-list__item"><a class="social-list__link" ></a></li> -->
-        </ul>
-    </footer>
-
-
-    <script src="./js/index.js"></script>
-</body>
-<!-- poop from a butt -->
+  </body>
 </html>

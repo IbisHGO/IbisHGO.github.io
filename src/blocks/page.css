@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title-font-size: 24px;
+  --title-line-height: 28px;
+  --project-font: "Roboto", sans-serif, serif;
+  --body-font-size: 20px;
+  --body-line-height: 24px;
+  --font-weight-regular: 500;
+  --font-weight-bold: 700;
+  --font-weight-extra: 1200;
+}
+
+.page {
+  background-color: white;
+  min-height: 100vh;
+  font-family: var(--project-font);
+}
+
+.page__section {
+  width: 100%;
+  /* margin: 0 auto; */
+}

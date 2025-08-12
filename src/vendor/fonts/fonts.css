@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  src: url(./Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src: url(./Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 1200;
+  font-style: normal;
+  letter-spacing: -5px;
+  src: url(./Roboto-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -5px;
+  src: url(./Orbitron-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -8px;
+  src: url(./Orbitron-Regular.ttf) format("truetype");
+}
