@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.rentals__body {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    max-width: 33.3%;
+  }
+  
+.column {
+    
+    text-align: center;
+    align-content: center;
+    
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+}
