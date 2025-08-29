@@ -15,6 +15,7 @@ html {
     
     text-align: center;
     align-content: center;
+    padding: 0;
     
 }
 
@@ -48,8 +49,8 @@ body {
 /* Remove extra left and right margins, due to padding in columns */
 .card-row {
   margin: 0 -5px; 
-  text-align: center;
-  align-content: center;
+  /* text-align: center; */
+  /* align-content: center; */
   display: flex;
   justify-content: center;
 }
@@ -62,7 +63,12 @@ body {
   display: table;
   clear: both;
 } */
-
+/* Clear floats after the columns */
+.card-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -72,11 +78,31 @@ body {
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 908px) {
   .card-column {
-    width: 100%;
+    width: 50%;
     display: block;
     margin-bottom: 20px;
+  }
+
+  .card-row {
+    flex-direction: column;
+    /* width: 50%; */
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card-column {
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .card-row {
+    flex-direction: column;
+    /* width: 50%; */
+    align-items: center;
   }
 }
 
