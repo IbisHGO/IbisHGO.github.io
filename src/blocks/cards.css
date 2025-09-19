@@ -15,5 +15,5 @@
 }
 
 .cards__list-details {
-  grid-template-columns: repeat(auto-fit, 600px);
+  grid-template-columns: repeat(auto-fit, 413px);
 }
