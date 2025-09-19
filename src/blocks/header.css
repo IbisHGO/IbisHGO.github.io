@@ -63,7 +63,7 @@
   flex-direction: row;
   align-items: center;
   gap: 36px;
-  color: white;
+  color: black;
 }
 
 .header__text-details_info {
@@ -79,6 +79,10 @@
   .header__text-details {
     font-size: 96px;
     margin: 0 0 0 24px;
+  }
+
+  .header__banner-bottom_details {
+    gap: 24px;
   }
 }
 
