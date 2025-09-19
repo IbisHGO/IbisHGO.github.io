@@ -69,3 +69,16 @@
 .header__text-details_info {
   font-size: 30px;
 }
+
+@media screen and (max-width: 627px) {
+  .header__button-text {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .header__text-details {
+    font-size: 96px;
+    margin: 0 0 0 96px;
+  }
+}
+
